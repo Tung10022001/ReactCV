@@ -10,7 +10,7 @@ export default function About() {
       <div className="flex flex-col items-center gap-y-10 max-w-[800px]">
         <h2 className="text-4xl lg:text-6xl font-bold">About Me</h2>
         <img
-          src="/img_avatar.png"
+          src={process.env.PUBLIC_URL + `/img_avatar.png`}
           alt="avatar"
           className="w-32 h-32 rounded-full"
         />

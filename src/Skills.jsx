@@ -10,7 +10,7 @@ export default function Skills() {
       <div className="flex flex-col items-center gap-y-10 max-w-[800px]">
         <h2 className="text-4xl lg:text-6xl font-bold">My skills</h2>
         <img
-          src="/skills.png"
+          src={process.env.PUBLIC_URL + `/skills.png`}
           alt="avatar"
           className="w-32 h-32 rounded-full object-cover"
         />
