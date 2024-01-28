@@ -7,7 +7,7 @@ export default function Main() {
     <div
       className="grow bg-cover pt-16 bg-center relative"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/dev.jpeg)`,
+        backgroundImage: `url('${process.env.PUBLIC_URL}/dev.jpeg')`,
       }}
     >
       <div className="absolute w-full h-full top-0 left-0 flex items-center justify-center backdrop-blur-md">
