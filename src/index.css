@@ -15,3 +15,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.mobile-menu {
+  height: 0;
+  opacity: 0;
+  padding-top: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+.mobile-menu.show-menu {
+  height: 100%;
+  opacity: 1;
+  visibility: visible;
+}
