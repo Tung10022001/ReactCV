@@ -20,6 +20,19 @@ export default function About() {
           ... I want to take part in many projects as possible to gain
           experience and become better as a developer in a future
         </h3>
+        <h2 className="text-2xl lg:text-4xl font-bold">Thông tin cá nhân</h2>
+        <p className="text-lg lg:text-xl">
+          Age: 23 | Hobbies: Playing games, Listening to music
+        </p>
+        <div className="text-lg lg:text-xl text-center">
+          <p>
+            Address: 91/4f Trịnh Thị Miếng , Ấp Tam Đông , Xã Thới Tam Thôn ,
+            Hóc Môn
+          </p>
+          <p>Phone: 0902339321</p>
+          <p>Email: tung32188@gmail.com</p>
+          <p>Date of Birth:10/02/2001</p>
+        </div>
       </div>
       <div className="flex gap-x-6 items-center">
         <a
