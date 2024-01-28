@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <div
       id="skills"
-      className="w-full h-full flex flex-col items-center justify-center px-4 lg:px-10 py-10 dark:bg-white dark:text-black 
+      className="w-full h-[60%] flex flex-col items-center justify-center px-4 lg:px-10 py-10 dark:bg-white dark:text-black 
           bg-black text-white gap-y-10"
     >
       <div className="flex flex-col items-center gap-y-10 max-w-[800px]">

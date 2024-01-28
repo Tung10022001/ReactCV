@@ -66,7 +66,7 @@ export default function Navbar() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-6 h-6 lg:hidden"
+            className="w-6 h-6 lg:hidden fill-black stroke-black dark:!fill-white dark:!stroke-white"
             onClick={() => toggleMenu()}
           >
             <path
