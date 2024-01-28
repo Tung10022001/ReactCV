@@ -14,12 +14,14 @@ const projects = [
     usage: "Play for fun",
     role: "Working on user inteface in team of 3",
     tech: ".NET",
+    image: "/zombie.png",
   },
   {
     name: "Cafe shop management app",
     usage: "App to sell coffee and food",
     role: "Working on user inteface in team of 3",
     tech: ".NET",
+    image: "/coffee.webp",
   },
 ];
 
